@@ -1,0 +1,178 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+    --clr-bg: #f2f2f8;
+    --clr-shadow: #f2f2f2;
+    --clr-bg-light: #f4f4f0
+}
+
+@font-face {
+    font-family: blueberry;
+    src: url('Blueberry.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: Blueberry, sans-serif;
+}
+
+
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-bg);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+.title-r {
+    height: 85px;
+    margin-top: 30px;
+    text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 45px;
+    margin-left: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-item {
+    font-size: 0.9rem;
+    background-color: #D4872F;
+    border-radius: 15px;
+    padding: 5px 5px;
+    color: white;
+    margin-right: 4px;
+}
+
+li:hover {
+    background-color: #8F4E0A;
+}
+
+li a {
+    color: white;
+}
+
+.nav {
+    display: inline;
+}
+
+
+
+#ver li {
+    display: inline;
+}
+
+
+.home-1 {
+    height: 600px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1)), url(images/bg.jpg);
+    /* background-image: url(images/bg.jpg); */
+    background-size: 100% 100%;
+    isolation: isolate;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.main-title {
+    font-size: 2.5rem;
+    margin-top: 150px;
+    text-shadow: 0px 2px 0px white;
+}
+
+strong {
+    font-size: 3.5rem;
+    color: #8F4E0A;
+    text-shadow: 0 3px 20px white;
+}
+
+h2 {
+    margin: 20px 20px;
+}
+
+.browse {
+    padding: 5px 10px;
+    background-color: var(--clr-bg);
+    border-radius: 30px;
+    box-shadow: 2px 2px #d7d0d0;
+}
+
+.contact {
+    background-color: black;
+    color: var(--clr-bg);
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.container-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 5px 5px;
+    border: 10px solid var(--clr-bg);
+    line-height: 1.5;
+}
+
+.container-img:hover {
+    border: 10px solid #0f0f0f;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.featured-foods {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-feature {
+    font-size: 3rem;
+    text-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-top: 50px;
+}
+
+
+h5 {
+    font: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.copyright {
+    margin: 20px;
+}
+
+span a {
+    color: black;
+    text-decoration: none;
+}
